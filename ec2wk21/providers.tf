@@ -9,6 +9,7 @@ terraform {
   required_version = ">= 0.14.9"
 }
 
-module "aws_ec2" {
-  source = "./ec2wk21"
+provider "aws" {
+  profile = "default"
+  region  = "us-west-2"
 }
