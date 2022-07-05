@@ -1,4 +1,4 @@
-module "EC2" {
-    source = "./EC2"
+module "ec2" {
+    source = "./ec2"
     
 }

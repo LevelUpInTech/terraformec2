@@ -2,7 +2,7 @@
 # Authored by Jason Ceballos
 # 07/05/2022
 
-resource "aws_instance" "app_server" {
+resource "aws_instance" "project_server" {
   ami           = var.ami_id
   instance_type = var.instance
 
