@@ -1,3 +1,4 @@
 Project/Week21/modules/ec2/.terraform/providers/registry.terraform.io/hashicorp/aws/3.75.2/darwin_amd64/terraform-provider-aws_v3.75.2_x5
 Project/Week21/modules/ec2/terraform.tfstate
 Project/Week21/modules/ec2/.terraform.tfstate.lock.info
+Project/Week21/modules/ec2/terraform.tfstate.backup
