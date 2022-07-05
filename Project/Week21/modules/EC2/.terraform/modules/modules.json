@@ -1,1 +1,1 @@
-{"Modules":[{"Key":"EC2","Source":"./ec2","Dir":""},{"Key":"","Source":"","Dir":"."}]}
+{"Modules":[{"Key":"EC2","Source":"./ec2","Dir":""},{"Key":"","Source":"","Dir":"."},{"Key":"ec2","Source":"./modules/ec2","Dir":""}]}
