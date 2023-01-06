@@ -1,3 +1,4 @@
+#-------ec2/main.tf-----
 terraform {
   required_providers {
     aws = {
