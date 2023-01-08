@@ -1,3 +1,5 @@
+# Child module
+# ec2-deployment/ec2.tf
 
 resource "aws_instance" "app_server" {
   ami           = var.ami_id
