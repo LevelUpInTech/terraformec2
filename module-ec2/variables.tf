@@ -17,11 +17,11 @@ variable "instance" {
 }
 # Create variable for cidr block
 variable "cidr" {
-  type = string
+  type    = string
   default = "10.0.1.0/24"
 }
 # Create variable for availability zone
 variable "az" {
-  type = string
+  type    = string
   default = "us-west-2a"
 }
