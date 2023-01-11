@@ -1,7 +1,5 @@
 #--- module-ec2/providers.tf
-#create variables for all of module-ec2
-#child module for ec2 variables.tf
-
+# provider is not needed if you already declared it in root
 terraform {
   required_providers {
     aws = {
@@ -9,7 +7,6 @@ terraform {
       version = "~> 3.27"
     }
   }
-#   required_version = ">= 0.14.9"
 }
 
 # Configure the AWS Provider
