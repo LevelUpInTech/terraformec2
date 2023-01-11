@@ -6,6 +6,7 @@ resource "aws_instance" "my_app_server" {
   instance_type          = var.instance
   vpc_security_group_ids = [aws_security_group.allow_http.id]
   subnet_id              = aws_subnet.public_subnet.id
+  user_data              = file("user-install.sh")
   tags = {
     Name = "EC2-App-Server"
   }
