@@ -1,4 +1,4 @@
-#---ChildModule/Variables.tf
+#--- root/variables.tf
 
 variable "ami_id" {
   description = "ec2 ami_id"

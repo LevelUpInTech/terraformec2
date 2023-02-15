@@ -1,4 +1,4 @@
-#---ChildModule/outputs.tf
+#---root/outputs.tf
 
 output "public_ip" {
   value = aws_instance.db_server.public_ip
